@@ -7,11 +7,51 @@
 
 #ifndef Utils_h
 #define Utils_h
-
 #define SystemLanguage  NSLocale.preferredLanguages.firstObject
 #define CURR_LANG    ([[NSLocale preferredLanguages] objectAtIndex:0])
 #define LocalKey(string) [Utils localKey:string]
+#define Color(colorString) ([UIColor RGBString:colorString])
 
+
+/**  屏幕宽度  */
+#define Screen_Width [UIScreen mainScreen].bounds.size.width
+#define UISCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+
+#define MyDefaults [NSUserDefaults standardUserDefaults]
+
+/**  屏幕高度  */
+#define Screen_Height [UIScreen mainScreen].bounds.size.height
+#define UISCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+/**  屏幕frame  */
+#define Screen_Bound [UIScreen mainScreen].bounds
+
+#define ScreenLineHeight 1/[UIScreen mainScreen].scale
+
+
+#define PING_FANG_SC_REGULAR_FONT_NAME @"PingFang-SC-Regular"
+#define PING_FANG_SC_MEDIUM_FONE_NAME @"PingFang-SC-Medium"
+#define PING_FANG_SC_LIGHT_FONE_NAME @"PingFangSC-Light"
+#define PING_FANG_SC_UITRALIGHT_FONE_NAME @"PingFangTC-Ultralight"
+#define PING_FANG_HK_LIGHT_FONE_NAME @"PingFangHK-Light"
+#define PING_FANG_SC_HEAVY_FONT_NAME @"PingFang-SC-Semibold"
+
+
+#define UIFont_Regular(fontSize) [UIFont fontWithName:PING_FANG_SC_REGULAR_FONT_NAME size:fontSize]
+#define UIFont_Medium(fontSize) [UIFont fontWithName:PING_FANG_SC_MEDIUM_FONE_NAME size:fontSize]
+#define UIFont_Light(fontSize) [UIFont fontWithName:PING_FANG_SC_LIGHT_FONE_NAME size:fontSize]
+#define UIFont_Ultralight(fontSize) [UIFont fontWithName:PING_FANG_SC_UITRALIGHT_FONE_NAME size:fontSize]
+#define UIFont_HK_Light(fontSize) [UIFont fontWithName:PING_FANG_HK_LIGHT_FONE_NAME size:fontSize]
+#define UIFont_Heavy(fontSize) [UIFont fontWithName:PING_FANG_SC_HEAVY_FONT_NAME size:fontSize]
+
+#define ColorClear ([UIColor clearColor])
+#define ColorWhite ([UIColor whiteColor])
+#define ColorBlack ([UIColor blackColor])
+#define Green Color(@"#44AF52")
+#define ColorMain  Green
+#define NavGray    Color(@"#F6F6F6")
+#define LargeNavColor [UIColor whiteColor]
+#define EncryptFileURLKey @"encryptKey="
 #import <Foundation/Foundation.h>
 @interface Utils: NSObject
 /**

@@ -7,7 +7,6 @@
 
 #import <Foundation/Foundation.h>
 #import "Utils.h"
-
 @implementation Utils
 
 +(NSString *)localKey:(NSString *)key {

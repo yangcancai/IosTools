@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50B18C5337BB2377B1B39F67 /* Pods_IosToolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80882A2CB338B08FF44072D0 /* Pods_IosToolsTests.framework */; };
+		6EDFBEB75633B524D9912422 /* Pods_IosTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34B851D09B7A429CE49D913 /* Pods_IosTools.framework */; };
 		B71DC6D82C7C12B6007CD50C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B71DC6D72C7C12B6007CD50C /* AppDelegate.m */; };
 		B71DC6DE2C7C12B6007CD50C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71DC6DD2C7C12B6007CD50C /* ViewController.m */; };
 		B71DC6E12C7C12B6007CD50C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B71DC6E02C7C12B6007CD50C /* Base */; };
@@ -19,6 +21,22 @@
 		B7B1D34D2C7C140500D029E2 /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D34C2C7C140500D029E2 /* LaunchViewController.m */; };
 		B7B1D3512C7C535800D029E2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7B1D34F2C7C535800D029E2 /* Localizable.strings */; };
 		B7B1D3542C7C55AA00D029E2 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D3532C7C55AA00D029E2 /* Utils.m */; };
+		B7B1D3582C7C75C700D029E2 /* SlidingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D3572C7C75C700D029E2 /* SlidingView.m */; };
+		B7B1D35C2C7C78C900D029E2 /* NotTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D35B2C7C78C900D029E2 /* NotTouchView.m */; };
+		B7B1D3602C7C7C4600D029E2 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D35F2C7C7C4600D029E2 /* UIColor+Extension.m */; };
+		B7B1D3642C7C81D800D029E2 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D3632C7C81D800D029E2 /* CustomView.m */; };
+		B7B1D3672C7C853500D029E2 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D3662C7C853500D029E2 /* GuideViewController.m */; };
+		B7B1D36E2C7C867200D029E2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D36B2C7C867200D029E2 /* BaseViewController.m */; };
+		B7B1D3712C7C886000D029E2 /* UINavigationController+PopGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D3702C7C886000D029E2 /* UINavigationController+PopGestureRecognizer.m */; };
+		B7B1D3742C7C890500D029E2 /* UINavigationController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D3732C7C890500D029E2 /* UINavigationController+Extension.m */; };
+		B7B1D3772C7C8BD400D029E2 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D3762C7C8BD400D029E2 /* UIImage+ImageEffects.m */; };
+		B7B1D37B2C7C8D1700D029E2 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D37A2C7C8D1700D029E2 /* NSString+Common.m */; };
+		B7B1D37E2C7C8E8D00D029E2 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D37D2C7C8E8D00D029E2 /* UIView+Common.m */; };
+		B7B1D3812C7C8F7100D029E2 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D3802C7C8F7100D029E2 /* UIBarButtonItem+Extension.m */; };
+		B7B1D3842C7C8FBF00D029E2 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D3832C7C8FBF00D029E2 /* UIViewController+Extension.m */; };
+		B7B1D3872C7CB9C700D029E2 /* GuideBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D3862C7CB9C700D029E2 /* GuideBottomView.m */; };
+		B7B1D38A2C7CBB1A00D029E2 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D3892C7CBB1A00D029E2 /* NSString+MD5.m */; };
+		F6F0484FE47E81C48D0DC7AC /* Pods_IosTools_IosToolsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07BDE95842A4AACC54D0A91 /* Pods_IosTools_IosToolsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +57,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3624F904B08F6A98E583CAA8 /* Pods-IosToolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosToolsTests.release.xcconfig"; path = "Target Support Files/Pods-IosToolsTests/Pods-IosToolsTests.release.xcconfig"; sourceTree = "<group>"; };
+		377CB76559BCF020F1E0C5C7 /* Pods-IosTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosTools.debug.xcconfig"; path = "Target Support Files/Pods-IosTools/Pods-IosTools.debug.xcconfig"; sourceTree = "<group>"; };
+		3D795820051F2DC3D103B349 /* Pods-IosTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosTools.release.xcconfig"; path = "Target Support Files/Pods-IosTools/Pods-IosTools.release.xcconfig"; sourceTree = "<group>"; };
+		50865B21A733EA91855CCBC3 /* Pods-IosToolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosToolsTests.debug.xcconfig"; path = "Target Support Files/Pods-IosToolsTests/Pods-IosToolsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F91BC30BC0306B8BB781304 /* Pods-IosTools-IosToolsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosTools-IosToolsUITests.release.xcconfig"; path = "Target Support Files/Pods-IosTools-IosToolsUITests/Pods-IosTools-IosToolsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7AFECA6D875428E9799B61A8 /* Pods-IosTools-IosToolsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosTools-IosToolsUITests.debug.xcconfig"; path = "Target Support Files/Pods-IosTools-IosToolsUITests/Pods-IosTools-IosToolsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		80882A2CB338B08FF44072D0 /* Pods_IosToolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IosToolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71DC6D32C7C12B6007CD50C /* IosTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71DC6D62C7C12B6007CD50C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B71DC6D72C7C12B6007CD50C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +85,40 @@
 		B7B1D3522C7C541F00D029E2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		B7B1D3532C7C55AA00D029E2 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		B7B1D3552C7C55E000D029E2 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		B7B1D3572C7C75C700D029E2 /* SlidingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidingView.m; sourceTree = "<group>"; };
+		B7B1D3592C7C762100D029E2 /* SlidingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlidingView.h; sourceTree = "<group>"; };
+		B7B1D35A2C7C78C900D029E2 /* NotTouchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotTouchView.h; sourceTree = "<group>"; };
+		B7B1D35B2C7C78C900D029E2 /* NotTouchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotTouchView.m; sourceTree = "<group>"; };
+		B7B1D35E2C7C7C4600D029E2 /* UIColor+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		B7B1D35F2C7C7C4600D029E2 /* UIColor+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		B7B1D3612C7C804F00D029E2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B7B1D3622C7C81D800D029E2 /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		B7B1D3632C7C81D800D029E2 /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		B7B1D3652C7C853500D029E2 /* GuideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
+		B7B1D3662C7C853500D029E2 /* GuideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
+		B7B1D36B2C7C867200D029E2 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		B7B1D36C2C7C867200D029E2 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		B7B1D36F2C7C886000D029E2 /* UINavigationController+PopGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+PopGestureRecognizer.h"; sourceTree = "<group>"; };
+		B7B1D3702C7C886000D029E2 /* UINavigationController+PopGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+PopGestureRecognizer.m"; sourceTree = "<group>"; };
+		B7B1D3722C7C890500D029E2 /* UINavigationController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Extension.h"; sourceTree = "<group>"; };
+		B7B1D3732C7C890500D029E2 /* UINavigationController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Extension.m"; sourceTree = "<group>"; };
+		B7B1D3752C7C8BD400D029E2 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		B7B1D3762C7C8BD400D029E2 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		B7B1D3782C7C8C6C00D029E2 /* SCLMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCLMacros.h; sourceTree = "<group>"; };
+		B7B1D3792C7C8D1700D029E2 /* NSString+Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		B7B1D37A2C7C8D1700D029E2 /* NSString+Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
+		B7B1D37C2C7C8E8D00D029E2 /* UIView+Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
+		B7B1D37D2C7C8E8D00D029E2 /* UIView+Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
+		B7B1D37F2C7C8F7100D029E2 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		B7B1D3802C7C8F7100D029E2 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		B7B1D3822C7C8FBF00D029E2 /* UIViewController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		B7B1D3832C7C8FBF00D029E2 /* UIViewController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		B7B1D3852C7CB9C700D029E2 /* GuideBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuideBottomView.h; sourceTree = "<group>"; };
+		B7B1D3862C7CB9C700D029E2 /* GuideBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuideBottomView.m; sourceTree = "<group>"; };
+		B7B1D3882C7CBB1A00D029E2 /* NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		B7B1D3892C7CBB1A00D029E2 /* NSString+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		C34B851D09B7A429CE49D913 /* Pods_IosTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IosTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07BDE95842A4AACC54D0A91 /* Pods_IosTools_IosToolsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IosTools_IosToolsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EDFBEB75633B524D9912422 /* Pods_IosTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B18C5337BB2377B1B39F67 /* Pods_IosToolsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,12 +142,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F0484FE47E81C48D0DC7AC /* Pods_IosTools_IosToolsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		532DE5A5ADF9269A304931AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C34B851D09B7A429CE49D913 /* Pods_IosTools.framework */,
+				E07BDE95842A4AACC54D0A91 /* Pods_IosTools_IosToolsUITests.framework */,
+				80882A2CB338B08FF44072D0 /* Pods_IosToolsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3C13A618EAFF97BE11A0A98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				377CB76559BCF020F1E0C5C7 /* Pods-IosTools.debug.xcconfig */,
+				3D795820051F2DC3D103B349 /* Pods-IosTools.release.xcconfig */,
+				7AFECA6D875428E9799B61A8 /* Pods-IosTools-IosToolsUITests.debug.xcconfig */,
+				6F91BC30BC0306B8BB781304 /* Pods-IosTools-IosToolsUITests.release.xcconfig */,
+				50865B21A733EA91855CCBC3 /* Pods-IosToolsTests.debug.xcconfig */,
+				3624F904B08F6A98E583CAA8 /* Pods-IosToolsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B71DC6CA2C7C12B6007CD50C = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +179,8 @@
 				B71DC6F12C7C12BA007CD50C /* IosToolsTests */,
 				B71DC6FB2C7C12BA007CD50C /* IosToolsUITests */,
 				B71DC6D42C7C12B6007CD50C /* Products */,
+				B3C13A618EAFF97BE11A0A98 /* Pods */,
+				532DE5A5ADF9269A304931AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +197,9 @@
 		B71DC6D52C7C12B6007CD50C /* IosTools */ = {
 			isa = PBXGroup;
 			children = (
+				B7B1D3682C7C861F00D029E2 /* Base */,
+				B7B1D35D2C7C7BE600D029E2 /* Extension */,
+				B7B1D3562C7C75A800D029E2 /* Guide */,
 				B71DC6D62C7C12B6007CD50C /* AppDelegate.h */,
 				B71DC6D72C7C12B6007CD50C /* AppDelegate.m */,
 				B7B1D34C2C7C140500D029E2 /* LaunchViewController.m */,
@@ -124,6 +214,7 @@
 				B7B1D34F2C7C535800D029E2 /* Localizable.strings */,
 				B7B1D3532C7C55AA00D029E2 /* Utils.m */,
 				B7B1D3552C7C55E000D029E2 /* Utils.h */,
+				B7B1D3612C7C804F00D029E2 /* PrefixHeader.pch */,
 			);
 			path = IosTools;
 			sourceTree = "<group>";
@@ -145,6 +236,58 @@
 			path = IosToolsUITests;
 			sourceTree = "<group>";
 		};
+		B7B1D3562C7C75A800D029E2 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				B7B1D3572C7C75C700D029E2 /* SlidingView.m */,
+				B7B1D3592C7C762100D029E2 /* SlidingView.h */,
+				B7B1D35A2C7C78C900D029E2 /* NotTouchView.h */,
+				B7B1D35B2C7C78C900D029E2 /* NotTouchView.m */,
+				B7B1D3622C7C81D800D029E2 /* CustomView.h */,
+				B7B1D3632C7C81D800D029E2 /* CustomView.m */,
+				B7B1D3652C7C853500D029E2 /* GuideViewController.h */,
+				B7B1D3662C7C853500D029E2 /* GuideViewController.m */,
+				B7B1D3852C7CB9C700D029E2 /* GuideBottomView.h */,
+				B7B1D3862C7CB9C700D029E2 /* GuideBottomView.m */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		B7B1D35D2C7C7BE600D029E2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B7B1D35E2C7C7C4600D029E2 /* UIColor+Extension.h */,
+				B7B1D35F2C7C7C4600D029E2 /* UIColor+Extension.m */,
+				B7B1D36F2C7C886000D029E2 /* UINavigationController+PopGestureRecognizer.h */,
+				B7B1D3702C7C886000D029E2 /* UINavigationController+PopGestureRecognizer.m */,
+				B7B1D3722C7C890500D029E2 /* UINavigationController+Extension.h */,
+				B7B1D3732C7C890500D029E2 /* UINavigationController+Extension.m */,
+				B7B1D3752C7C8BD400D029E2 /* UIImage+ImageEffects.h */,
+				B7B1D3762C7C8BD400D029E2 /* UIImage+ImageEffects.m */,
+				B7B1D3782C7C8C6C00D029E2 /* SCLMacros.h */,
+				B7B1D3792C7C8D1700D029E2 /* NSString+Common.h */,
+				B7B1D37A2C7C8D1700D029E2 /* NSString+Common.m */,
+				B7B1D37C2C7C8E8D00D029E2 /* UIView+Common.h */,
+				B7B1D37D2C7C8E8D00D029E2 /* UIView+Common.m */,
+				B7B1D37F2C7C8F7100D029E2 /* UIBarButtonItem+Extension.h */,
+				B7B1D3802C7C8F7100D029E2 /* UIBarButtonItem+Extension.m */,
+				B7B1D3822C7C8FBF00D029E2 /* UIViewController+Extension.h */,
+				B7B1D3832C7C8FBF00D029E2 /* UIViewController+Extension.m */,
+				B7B1D3882C7CBB1A00D029E2 /* NSString+MD5.h */,
+				B7B1D3892C7CBB1A00D029E2 /* NSString+MD5.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B7B1D3682C7C861F00D029E2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B7B1D36C2C7C867200D029E2 /* BaseViewController.h */,
+				B7B1D36B2C7C867200D029E2 /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +295,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B71DC7022C7C12BA007CD50C /* Build configuration list for PBXNativeTarget "IosTools" */;
 			buildPhases = (
+				7564A66896D62B663CCD8100 /* [CP] Check Pods Manifest.lock */,
 				B71DC6CF2C7C12B6007CD50C /* Sources */,
 				B71DC6D02C7C12B6007CD50C /* Frameworks */,
 				B71DC6D12C7C12B6007CD50C /* Resources */,
+				D7B04735314EAFAF5FFCCD26 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,6 +314,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B71DC7052C7C12BA007CD50C /* Build configuration list for PBXNativeTarget "IosToolsTests" */;
 			buildPhases = (
+				9E1DDEE635C311B60ACF8C65 /* [CP] Check Pods Manifest.lock */,
 				B71DC6EA2C7C12BA007CD50C /* Sources */,
 				B71DC6EB2C7C12BA007CD50C /* Frameworks */,
 				B71DC6EC2C7C12BA007CD50C /* Resources */,
@@ -187,9 +333,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B71DC7082C7C12BA007CD50C /* Build configuration list for PBXNativeTarget "IosToolsUITests" */;
 			buildPhases = (
+				01C4F54A5683FCE1EF18D07C /* [CP] Check Pods Manifest.lock */,
 				B71DC6F42C7C12BA007CD50C /* Sources */,
 				B71DC6F52C7C12BA007CD50C /* Frameworks */,
 				B71DC6F62C7C12BA007CD50C /* Resources */,
+				B52D9C7A87997E6B0D85036B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -272,16 +420,134 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01C4F54A5683FCE1EF18D07C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IosTools-IosToolsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7564A66896D62B663CCD8100 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IosTools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E1DDEE635C311B60ACF8C65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IosToolsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B52D9C7A87997E6B0D85036B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IosTools-IosToolsUITests/Pods-IosTools-IosToolsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IosTools-IosToolsUITests/Pods-IosTools-IosToolsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IosTools-IosToolsUITests/Pods-IosTools-IosToolsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7B04735314EAFAF5FFCCD26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IosTools/Pods-IosTools-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IosTools/Pods-IosTools-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IosTools/Pods-IosTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B71DC6CF2C7C12B6007CD50C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7B1D3812C7C8F7100D029E2 /* UIBarButtonItem+Extension.m in Sources */,
+				B7B1D37B2C7C8D1700D029E2 /* NSString+Common.m in Sources */,
+				B7B1D37E2C7C8E8D00D029E2 /* UIView+Common.m in Sources */,
+				B7B1D3582C7C75C700D029E2 /* SlidingView.m in Sources */,
 				B7B1D34D2C7C140500D029E2 /* LaunchViewController.m in Sources */,
+				B7B1D38A2C7CBB1A00D029E2 /* NSString+MD5.m in Sources */,
 				B71DC6DE2C7C12B6007CD50C /* ViewController.m in Sources */,
 				B71DC6D82C7C12B6007CD50C /* AppDelegate.m in Sources */,
+				B7B1D36E2C7C867200D029E2 /* BaseViewController.m in Sources */,
 				B7B1D3542C7C55AA00D029E2 /* Utils.m in Sources */,
+				B7B1D3742C7C890500D029E2 /* UINavigationController+Extension.m in Sources */,
+				B7B1D3872C7CB9C700D029E2 /* GuideBottomView.m in Sources */,
+				B7B1D3642C7C81D800D029E2 /* CustomView.m in Sources */,
+				B7B1D3602C7C7C4600D029E2 /* UIColor+Extension.m in Sources */,
+				B7B1D3672C7C853500D029E2 /* GuideViewController.m in Sources */,
+				B7B1D3712C7C886000D029E2 /* UINavigationController+PopGestureRecognizer.m in Sources */,
+				B7B1D3772C7C8BD400D029E2 /* UIImage+ImageEffects.m in Sources */,
+				B7B1D3842C7C8FBF00D029E2 /* UIViewController+Extension.m in Sources */,
 				B71DC6E92C7C12B9007CD50C /* main.m in Sources */,
+				B7B1D35C2C7C78C900D029E2 /* NotTouchView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,12 +732,15 @@
 		};
 		B71DC7032C7C12BA007CD50C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 377CB76559BCF020F1E0C5C7 /* Pods-IosTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TPYTHR38R3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IosTools/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IosTools/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -493,12 +762,15 @@
 		};
 		B71DC7042C7C12BA007CD50C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D795820051F2DC3D103B349 /* Pods-IosTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TPYTHR38R3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IosTools/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IosTools/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -520,6 +792,7 @@
 		};
 		B71DC7062C7C12BA007CD50C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50865B21A733EA91855CCBC3 /* Pods-IosToolsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -538,6 +811,7 @@
 		};
 		B71DC7072C7C12BA007CD50C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3624F904B08F6A98E583CAA8 /* Pods-IosToolsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -556,6 +830,7 @@
 		};
 		B71DC7092C7C12BA007CD50C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFECA6D875428E9799B61A8 /* Pods-IosTools-IosToolsUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -572,6 +847,7 @@
 		};
 		B71DC70A2C7C12BA007CD50C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F91BC30BC0306B8BB781304 /* Pods-IosTools-IosToolsUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

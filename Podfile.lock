@@ -1,0 +1,22 @@
+PODS:
+  - Masonry (1.1.0)
+  - RTRootNavigationController (0.8.1):
+    - RTRootNavigationController/Core (= 0.8.1)
+  - RTRootNavigationController/Core (0.8.1)
+
+DEPENDENCIES:
+  - Masonry
+  - RTRootNavigationController
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - RTRootNavigationController
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  RTRootNavigationController: ca443783baf6ff65a70c4d21ce0eedbbc1fec1fe
+
+PODFILE CHECKSUM: a2a57553c9996ddda3b245a18459bcfc28870d65
+
+COCOAPODS: 1.15.2

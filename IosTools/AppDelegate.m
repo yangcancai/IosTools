@@ -8,6 +8,7 @@
 #import "AppDelegate.h"
 #import "LaunchViewController.h"
 #import "Utils.h"
+#import "GuideViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -23,9 +24,11 @@
     self.window.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
     // 设置启动动画视图控制器
-    LaunchViewController *launchVC = [[LaunchViewController alloc] init];
-    self.window.rootViewController = launchVC;
+//    LaunchViewController *launchVC = [[LaunchViewController alloc] init];
+//    self.window.rootViewController = launchVC;
     
+    GuideViewController *guideViewController = [GuideViewController new]; //跳转主视图
+    self.window.rootViewController = guideViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
