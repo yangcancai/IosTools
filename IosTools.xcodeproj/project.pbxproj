@@ -17,6 +17,8 @@
 		B71DC6FD2C7C12BA007CD50C /* IosToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B71DC6FC2C7C12BA007CD50C /* IosToolsUITests.m */; };
 		B71DC6FF2C7C12BA007CD50C /* IosToolsUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B71DC6FE2C7C12BA007CD50C /* IosToolsUITestsLaunchTests.m */; };
 		B7B1D34D2C7C140500D029E2 /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D34C2C7C140500D029E2 /* LaunchViewController.m */; };
+		B7B1D3512C7C535800D029E2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7B1D34F2C7C535800D029E2 /* Localizable.strings */; };
+		B7B1D3542C7C55AA00D029E2 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D3532C7C55AA00D029E2 /* Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		B71DC6FE2C7C12BA007CD50C /* IosToolsUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IosToolsUITestsLaunchTests.m; sourceTree = "<group>"; };
 		B7B1D34C2C7C140500D029E2 /* LaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
 		B7B1D34E2C7C141800D029E2 /* LaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		B7B1D3502C7C535800D029E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B7B1D3522C7C541F00D029E2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B7B1D3532C7C55AA00D029E2 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		B7B1D3552C7C55E000D029E2 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,9 @@
 				B71DC6E42C7C12B9007CD50C /* LaunchScreen.storyboard */,
 				B71DC6E72C7C12B9007CD50C /* Info.plist */,
 				B71DC6E82C7C12B9007CD50C /* main.m */,
+				B7B1D34F2C7C535800D029E2 /* Localizable.strings */,
+				B7B1D3532C7C55AA00D029E2 /* Utils.m */,
+				B7B1D3552C7C55E000D029E2 /* Utils.h */,
 			);
 			path = IosTools;
 			sourceTree = "<group>";
@@ -221,6 +230,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = B71DC6CA2C7C12B6007CD50C;
 			productRefGroup = B71DC6D42C7C12B6007CD50C /* Products */;
@@ -240,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B71DC6E32C7C12B9007CD50C /* Assets.xcassets in Resources */,
+				B7B1D3512C7C535800D029E2 /* Localizable.strings in Resources */,
 				B71DC6E62C7C12B9007CD50C /* Base in Resources */,
 				B71DC6E12C7C12B6007CD50C /* Base in Resources */,
 			);
@@ -269,6 +280,7 @@
 				B7B1D34D2C7C140500D029E2 /* LaunchViewController.m in Sources */,
 				B71DC6DE2C7C12B6007CD50C /* ViewController.m in Sources */,
 				B71DC6D82C7C12B6007CD50C /* AppDelegate.m in Sources */,
+				B7B1D3542C7C55AA00D029E2 /* Utils.m in Sources */,
 				B71DC6E92C7C12B9007CD50C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +334,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		B7B1D34F2C7C535800D029E2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7B1D3502C7C535800D029E2 /* en */,
+				B7B1D3522C7C541F00D029E2 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -330,6 +351,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -391,6 +413,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

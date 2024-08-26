@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-
+#import "Utils.h"
 @interface ViewController ()
 
 @property (strong, nonatomic) UITextField *usernameField;
@@ -38,9 +38,10 @@
     [self.view addSubview:self.passwordField];
     
     // 创建登录按钮
+    NSString* login = LocalKey(@"BTN_LOGIN");
     self.loginButton = [UIButton buttonWithType:UIButtonTypeSystem];
     self.loginButton.frame = CGRectMake(50, 200, 300, 40);
-    [self.loginButton setTitle:@"Login" forState:UIControlStateNormal];
+    [self.loginButton setTitle:login forState:UIControlStateNormal];
     [self.loginButton addTarget:self action:@selector(loginButtonTapped) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.loginButton];
     
