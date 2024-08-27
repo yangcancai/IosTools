@@ -36,6 +36,8 @@
 		B7B1D3842C7C8FBF00D029E2 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D3832C7C8FBF00D029E2 /* UIViewController+Extension.m */; };
 		B7B1D3872C7CB9C700D029E2 /* GuideBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D3862C7CB9C700D029E2 /* GuideBottomView.m */; };
 		B7B1D38A2C7CBB1A00D029E2 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D3892C7CBB1A00D029E2 /* NSString+MD5.m */; };
+		B7B1D38D2C7D604900D029E2 /* LanguageController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B1D38C2C7D604900D029E2 /* LanguageController.m */; };
+		B7B1D3922C7D6AB100D029E2 /* LanguageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7B1D3912C7D6AB100D029E2 /* LanguageController.xib */; };
 		F6F0484FE47E81C48D0DC7AC /* Pods_IosTools_IosToolsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07BDE95842A4AACC54D0A91 /* Pods_IosTools_IosToolsUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -117,6 +119,9 @@
 		B7B1D3862C7CB9C700D029E2 /* GuideBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuideBottomView.m; sourceTree = "<group>"; };
 		B7B1D3882C7CBB1A00D029E2 /* NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		B7B1D3892C7CBB1A00D029E2 /* NSString+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		B7B1D38B2C7D604900D029E2 /* LanguageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanguageController.h; sourceTree = "<group>"; };
+		B7B1D38C2C7D604900D029E2 /* LanguageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageController.m; sourceTree = "<group>"; };
+		B7B1D3912C7D6AB100D029E2 /* LanguageController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LanguageController.xib; sourceTree = "<group>"; };
 		C34B851D09B7A429CE49D913 /* Pods_IosTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IosTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E07BDE95842A4AACC54D0A91 /* Pods_IosTools_IosToolsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IosTools_IosToolsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -197,6 +202,7 @@
 		B71DC6D52C7C12B6007CD50C /* IosTools */ = {
 			isa = PBXGroup;
 			children = (
+				B7B1D38E2C7D697200D029E2 /* Language */,
 				B7B1D3682C7C861F00D029E2 /* Base */,
 				B7B1D35D2C7C7BE600D029E2 /* Extension */,
 				B7B1D3562C7C75A800D029E2 /* Guide */,
@@ -286,6 +292,16 @@
 				B7B1D36B2C7C867200D029E2 /* BaseViewController.m */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		B7B1D38E2C7D697200D029E2 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				B7B1D38B2C7D604900D029E2 /* LanguageController.h */,
+				B7B1D38C2C7D604900D029E2 /* LanguageController.m */,
+				B7B1D3912C7D6AB100D029E2 /* LanguageController.xib */,
+			);
+			path = Language;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,6 +413,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7B1D3922C7D6AB100D029E2 /* LanguageController.xib in Resources */,
 				B71DC6E32C7C12B9007CD50C /* Assets.xcassets in Resources */,
 				B7B1D3512C7C535800D029E2 /* Localizable.strings in Resources */,
 				B71DC6E62C7C12B9007CD50C /* Base in Resources */,
@@ -546,6 +563,7 @@
 				B7B1D3712C7C886000D029E2 /* UINavigationController+PopGestureRecognizer.m in Sources */,
 				B7B1D3772C7C8BD400D029E2 /* UIImage+ImageEffects.m in Sources */,
 				B7B1D3842C7C8FBF00D029E2 /* UIViewController+Extension.m in Sources */,
+				B7B1D38D2C7D604900D029E2 /* LanguageController.m in Sources */,
 				B71DC6E92C7C12B9007CD50C /* main.m in Sources */,
 				B7B1D35C2C7C78C900D029E2 /* NotTouchView.m in Sources */,
 			);

@@ -158,7 +158,7 @@
 
 - (UIButton *)leftNavButton
 {
-    UIImage *menuBtnImg = [UIImage imageNamed:@"icon_back"];
+    UIImage *menuBtnImg = [UIImage imageNamed:@"left_arrow"];
     
     UIButton *leftBarButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [leftBarButton setImage:menuBtnImg forState:UIControlStateNormal];

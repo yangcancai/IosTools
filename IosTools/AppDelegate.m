@@ -9,6 +9,7 @@
 #import "LaunchViewController.h"
 #import "Utils.h"
 #import "GuideViewController.h"
+#import "RTRootNavigationController.h"
 @interface AppDelegate ()
 
 @end
@@ -28,7 +29,8 @@
 //    self.window.rootViewController = launchVC;
     
     GuideViewController *guideViewController = [GuideViewController new]; //跳转主视图
-    self.window.rootViewController = guideViewController;
+    RTRootNavigationController* nav = [[RTRootNavigationController alloc] initWithRootViewController:guideViewController];
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;
 }

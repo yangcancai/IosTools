@@ -8,6 +8,7 @@
 #import "GuideViewController.h"
 #import "SlidingView.h"
 #import "GuideBottomView.h"
+#import "LanguageController.h"
 @interface GuideViewController ()
 
 @property (strong, nonatomic) GuideBottomView *myGuideBottomView; // 底部登录与注册视图
@@ -120,8 +121,12 @@
 
 // 跳转到语言设置
 - (void)languageSetting:(UIButton *)btn {
-    //LanguageController *langVC = [[LanguageController alloc] init];
-   // [self.navigationController pushViewController:langVC animated:YES];
+//    LanguageController *langVC = [[LanguageController alloc] init];
+    LanguageController *langVC = [[LanguageController alloc] initWithNibName:@"LanguageController" bundle:nil];
+    if(self.navigationController==nil){
+        NSLog(@"navigationController is nil");
+    }
+    [self.navigationController pushViewController:langVC animated:YES];
 }
 
 - (void)setupBottomBtn
